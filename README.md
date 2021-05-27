@@ -25,7 +25,7 @@ Text Classification using ULMFiT and BERT. Challenge solved for ML Fellowship pr
 
 # RESULTS
 
-\# | Model | Accuracy | Loss | Time
+\# | Model | Accuracy | Loss | Total Time
 --- | --- | --- | --- | --- 
-01 | ULMFiT | 0.753679 | 0.702299 | 02:54
+01 | ULMFiT | 0.753679 | 0.702299 | 11:06
 02 | BERT | 0.8193 | 0.5698 | 13:06 
