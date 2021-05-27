@@ -17,11 +17,21 @@ Text Classification using ULMFiT and BERT. Challenge solved for ML Fellowship pr
 - 5. 2. (0.8, 0,7) -Momentum
 - 6. 64 -Batch Size
 
+### How to improve performance (ULMFiT)?
+1. Provide more data to ULTFiT language model (requires more computational resources)
+2. Hyperparameter tuning using bayesian techniques (for language model and classification model)
+3. Reduce dropout in language model (may lead to overfitting, so need to be careful)
+
 # BERT
 - 64 -Max Length
 - 64 -Batch Size
 - 2e-5 -Learning Rate
 - 3 -Epochs
+
+### How to improve performance (BERT)?
+1. Increase max length parameter (requires more computational resources)
+2. Reduce batch size (more execution time, may lead to overfitting)
+3. Use regulazation techniques (L1 and L2) 
 
 # RESULTS
 
