@@ -6,7 +6,7 @@ Text Classification using ULMFiT and BERT. Challenge solved for ML Fellowship pr
 - 1. AWD-LSTM - Architecture 
 - 2. 0.3 - Dropout
 - 3. 1e-2 -Learning Rate (One cycle policy with **2 epochs**, to avoid overfitting)
-- 4 . 1e-3 -Learning Rate (Unfreezing all layers)
+- 4. 1e-3 -Learning Rate (Unfreezing all layers)
 2. Classification Model (To train the classifier, we will use a technique called gradual unfreezing. We can start by training the last few layers, then go backwards and unfreeze and train layers before. We can use the learner function learn.freeze_to(-2) to unfreeze the last 2 layers.)
 - 1. AWD-LSTM - Architecture
 - 2. 0.5 - Dropout
